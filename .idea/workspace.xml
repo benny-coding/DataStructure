@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5921ecb-eb34-4dc1-86df-704115e40b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/ArrayEqual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/CardConvRev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PrimeNumber1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PrimeNumber2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/chap02/MaxOfArrayRand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/chap02/MaxOfArrayRand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap02/MaxOfArrayRand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap02/MaxOfArrayRand.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,24 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap01/Multi99Table.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap01/TriangleLB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap02/IntArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap02/MaxOfArrayRand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="525">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap02/ReverseArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="615">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
@@ -106,17 +85,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap02/ArrayEqual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="44" column="64" lean-forward="true" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+            <state relative-caret-position="660">
+              <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap02/CardConvRev.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap02/PrimeNumber1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap02/CardConvRev.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap02/PrimeNumber2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -149,6 +146,8 @@
         <option value="$PROJECT_DIR$/src/main/java/chap02/ReverseArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap02/ArrayEqual.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap02/CardConvRev.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap02/PrimeNumber1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap02/PrimeNumber2.java" />
       </list>
     </option>
   </component>
@@ -162,8 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567002155042" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567089379487" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -234,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CardConvRev">
+  <component name="RunManager" selected="Application.PrimeNumber2">
     <configuration name="ArrayEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.ArrayEqual" />
       <module name="bambooDataStructure.bambooDataStructure.main" />
@@ -261,8 +260,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.MaxOfArray" />
+    <configuration name="PrimeNumber1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.PrimeNumber1" />
       <module name="bambooDataStructure.bambooDataStructure.main" />
       <extension name="coverage">
         <pattern>
@@ -274,8 +273,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxOfArrayRand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.MaxOfArrayRand" />
+    <configuration name="PrimeNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.PrimeNumber2" />
       <module name="bambooDataStructure.bambooDataStructure.main" />
       <extension name="coverage">
         <pattern>
@@ -302,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber2" />
+        <item itemvalue="Application.PrimeNumber1" />
         <item itemvalue="Application.CardConvRev" />
         <item itemvalue="Application.ArrayEqual" />
         <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.MaxOfArrayRand" />
-        <item itemvalue="Application.MaxOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -322,28 +321,29 @@
       <updated>1566820452504</updated>
       <workItem from="1566820454706" duration="11845000" />
       <workItem from="1566910504340" duration="4282000" />
-      <workItem from="1566972609178" duration="10294000" />
+      <workItem from="1566972609178" duration="11424000" />
+      <workItem from="1567083167966" duration="3714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26421000" />
+    <option name="totallyTimeSpent" value="31265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.502008" side_tool="true" visible="true" weight="0.25679544" />
+      <window_info id="Favorites" order="6" sideWeight="0.50089765" side_tool="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -351,7 +351,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -388,6 +388,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1484" selection-start-line="1484" selection-end-line="1484" />
         </state>
       </provider>
     </entry>
@@ -435,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap02/MaxOfArrayRand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="525">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -445,29 +452,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap02/ReverseArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="615">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="1484" selection-start-line="1484" selection-end-line="1484" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap02/ArrayEqual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="44" column="64" lean-forward="true" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+        <state relative-caret-position="660">
+          <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap02/CardConvRev.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap02/PrimeNumber1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap02/PrimeNumber2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
         </state>
       </provider>
     </entry>
