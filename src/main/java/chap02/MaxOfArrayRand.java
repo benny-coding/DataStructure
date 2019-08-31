@@ -19,8 +19,9 @@ public class MaxOfArrayRand {
         Scanner stdIn = new Scanner(System.in);
 
         System.out.println("키의 최댓값을 구합니다.");
-        System.out.print(" 사람의 수 : ");
-        int peopleCount = stdIn.nextInt();
+
+        int peopleCount = rand.nextInt(100);
+        System.out.println(" 사람의 수 : " + peopleCount);
 
         int[] height = new int[peopleCount];
 
@@ -33,4 +34,5 @@ public class MaxOfArrayRand {
 
         System.out.println("최댓값은 " + maxOf(height) + "입니다. ");
     }
+
 }
