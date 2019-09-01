@@ -7,6 +7,7 @@ public class Main {
         numbers.addFirst(20);
         numbers.addFirst(10);
         numbers.add(2,25);
+        System.out.println(numbers.indexOf(25));
         System.out.println(numbers.removeFirst());
         System.out.println(numbers.remove(0));
         System.out.println(numbers.remove(1));
