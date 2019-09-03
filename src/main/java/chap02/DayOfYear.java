@@ -29,7 +29,7 @@ public class DayOfYear {
         int retry;              // 다시 한 번?
 
         System.out.println("그 해 경과 일수를 구합니다.");
-
+/*
         do {
             System.out.print("년 : ");
             int year = stdIn.nextInt();   // 년
@@ -46,5 +46,11 @@ public class DayOfYear {
             retry = stdIn.nextInt();
 
         } while(retry == 1);
+*/
+        int[] a = {1,2,3,4,5,6};
+        int[] b = a.clone();
+        a[0] = 9;
+
+        System.out.println(b[0]);
     }
 }
