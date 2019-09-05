@@ -34,6 +34,7 @@ public class SeqSearchSen {
         int searchKey = stdIn.nextInt( );
         int idx = seqSearchSen(x,num,searchKey);    // 배열 x에서 값이 searchKey인 요소를 검색
 
+
         if(idx == -1){
             System.out.println("그 값의 요소가 없습니다.");
         } else {
