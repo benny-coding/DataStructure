@@ -16,7 +16,7 @@ public class BinarySearchTester {
         System.out.print("x[0] : ");        // 배열의 첫 요소를 먼저 입력합시다.
         x[0] = stdIn.nextInt();
 
-        for (int i = 0; i < num ; i++) {
+        for (int i = 1; i < num ; i++) {
             do {
                 System.out.print("x[" + i + "]: ");
                 x[i] = stdIn.nextInt();
