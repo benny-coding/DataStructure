@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5921ecb-eb34-4dc1-86df-704115e40b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap03/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap03/PhysExamSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,15 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap03/SeqSearchSen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap03/BinSearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +84,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap03/X.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap03/PhysExamSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/main/java/chap03/StringBinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap03/A.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap03/X.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap03/PhysExamSearch.java" />
       </list>
     </option>
   </component>
@@ -272,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568299338632" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568384614928" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -292,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringBinarySearch">
+  <component name="RunManager" selected="Application.PhysExamSearch$PhyscData">
     <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap03.BinSearch" />
       <module name="bambooDataStructure.bambooDataStructure.main" />
@@ -332,8 +338,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeqSearchSen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03.SeqSearchSen" />
+    <configuration name="PhysExamSearch$PhyscData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.PhysExamSearch$PhyscData" />
       <module name="bambooDataStructure.bambooDataStructure.main" />
       <extension name="coverage">
         <pattern>
@@ -360,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhysExamSearch$PhyscData" />
         <item itemvalue="Application.StringBinarySearch" />
         <item itemvalue="Application.IdTester" />
         <item itemvalue="Application.BinarySearchTester" />
         <item itemvalue="Application.BinSearch" />
-        <item itemvalue="Application.SeqSearchSen" />
       </list>
     </recent_temporary>
   </component>
@@ -384,12 +390,12 @@
       <workItem from="1567083167966" duration="27732000" />
       <workItem from="1567604734231" duration="1403000" />
       <workItem from="1567683780685" duration="5568000" />
-      <workItem from="1567833729924" duration="5174000" />
+      <workItem from="1567833729924" duration="6620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67428000" />
+    <option name="totallyTimeSpent" value="68874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -674,6 +680,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap03/PhysExamSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
