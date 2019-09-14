@@ -25,15 +25,15 @@ public class PhysExamSearch {
         }
 
         // 오름차순으로 정렬하기 위한 comparator
-        public static final Comparator<PhyscData> HEIGHT_ORDER = new HeightOrderComparator();
-
+    //    public static final Comparator<PhyscData> HEIGHT_ORDER = new HeightOrderComparator();
+/*
         private static class HeightOrderComparator implements Comparator<PhyscData> {
             public int compare<PhyscData d1, PhyscData d2> {
                 return (d1.height > d2.height) ? 1 : (d1.height < d2.height) ? -1 : 0;
             }
 
         }
-
+*/
         public static void main(String[] args){
             Scanner stdIn = new Scanner(System.in);
             PhyscData[] x = {
@@ -49,8 +49,8 @@ public class PhysExamSearch {
             int height = stdIn.nextInt();       // 키 값 입력
             int idx = Arrays.binarySearch(
                     x,                              //  배열 x에서
-                    new PhyscData("", height, 0.0),  // 키가 height인 요소를
-                    PhyscData.HEIGHT_ORDER                      //  HEIGHT_ORDER에 의해 검색
+                    new PhyscData("", height, 0.0)  // 키가 height인 요소를
+                   // PhyscData.HEIGHT_ORDER                      //  HEIGHT_ORDER에 의해 검색
             );
 
             if (idx < 0){

@@ -1,6 +1,6 @@
 package chap03;
 import java.util.Comparator;
-
+/*
 class X {
 
     public static final Comparator<T> COMPARATOR = new Comp();
@@ -12,3 +12,5 @@ class X {
 
     }
 }
+
+*/

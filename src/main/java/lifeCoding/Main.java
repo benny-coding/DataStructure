@@ -1,4 +1,6 @@
-package LinkedList;
+package lifeCoding;
+
+import lifeCoding.LinkedList;
 
 public class Main {
     public static void main(String[] args) {

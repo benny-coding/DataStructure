@@ -1,6 +1,6 @@
 package chap03;
 // 자연스러운 정렬을 하려면 다음과 같은 방법으로 클래스를 정의합니다.
-
+/*
 class A implements Comparable<A>{
 
     // 필드 , 메서드 등
@@ -15,4 +15,6 @@ class A implements Comparable<A>{
         // this가 c와 같으면 true 반환
         // this가 c와 같지 않으면 false 반환
     }
+
 }
+*/
