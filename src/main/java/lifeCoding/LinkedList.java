@@ -27,6 +27,8 @@ public class  LinkedList {
         if(head.next == null){
             tail = head;
         }
+        head.data = 100;
+        System.out.println(newNode.data);
 
     }
 
