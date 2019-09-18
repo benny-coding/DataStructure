@@ -27,10 +27,24 @@ public class IntStack {
         }
     }
 
-    public int pysh(int x) throws OverflowIntStackException {
+    public int push(int x) throws OverflowIntStackException {
         if(ptr >= max){
             throw new OverflowIntStackException();
         }
         return stk[ptr++] = x;
+    }
+
+    public int pop() throws EmptyIntStackException {
+        if(ptr <= 0){
+            throw new EmptyIntStackException();
+        }
+        return stk[--ptr];
+    }
+
+    public int peek() throws EmptyIntStackException{
+        if (ptr <= 0){
+            throw new EmptyIntStackException;
+        }
+        return stk[ptr - 1];
     }
 }
