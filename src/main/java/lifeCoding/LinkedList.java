@@ -1,6 +1,6 @@
-package LinkedList;
+package lifeCoding;
 
-public class LinkedList {
+public class  LinkedList {
     private Node head;
     private Node tail;
     private int size = 0;
@@ -19,15 +19,15 @@ public class LinkedList {
         }
     }
 
-    public void addFirst(Object input){
-        Node newNode = new Node(input);
-        newNode.next = head;
-        head = newNode;
-        size++;
-        if(head.next == null){
-            tail = head;
-        }
+    public void addFirst(Object input) {
+        Node newNode = new Node(input); // input 값으로 Node를 인스턴스화 하여 newNode를 초기화
+        newNode.next = head;	// 기존의 head 값은 newNode 객체의 next 변수가 되고
+        head = newNode;		// newNode 객체는 새로운 head가 됩니다
+        size++;			// 새로운 노드가 생겼으니 size를 증가시켜줍니다
 
+        if(head.next == null){  // head의 next값이 null이라는 의미는 현재 head가 마지막 노드라는 의미이므로
+            tail = head;	// head의 값이 tail이기도 하다는 뜻이기도 합니다
+        }
     }
 
     public void addLast(Object input){
@@ -138,5 +138,51 @@ public class LinkedList {
          str += temp.data;
          return str + "]";
     }
+
+    public ListIterator listIterator(){
+        return new ListIterator();
+    }
+
+    public class ListIterator{
+        private Node next;
+        private Node lastReturned;
+        private int nextIndex;
+
+        ListIterator(){
+            next = head;
+        }
+
+        public Object next(){
+            lastReturned = next;
+            next = next.next;
+            nextIndex++;
+            return lastReturned.data;
+        }
+
+        public void add(Object input){
+            Node newNode = new Node(input);
+
+            if(lastReturned == null){ // 노드가 없는 상태에서 첫번째 추가이면
+                head = newNode;	// 새로운 노드를 head로 가리키고
+                newNode.next = next;	// 새로운 노드의 next는 next 노드를 가리킵니다.
+            } else {
+                lastReturned.next = newNode;	// 새로운 노드를 lastReturned의 next로 연결시키고
+                newNode.next = next;	// next는 새로운 노드의 next로 연결시킵니다.
+            }
+            lastReturned = newNode;	// 새로운 노드를 리턴할 노드로 정한 후
+            nextIndex++;	// next의 index 증가와
+            size++;	// size도 증가시킵니다.
+        }
+
+        public void remove(){
+            if(nextIndex == 0){
+                throw new IllegalStateException();
+            }
+            LinkedList.this.remove(nextIndex-1);
+            nextIndex--;
+        }
+
+    }
+
 
 }
