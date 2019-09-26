@@ -36,4 +36,21 @@ public class BinTree<K,V> {
 
     private Node<K,V> root;            // 루트
     private Comparator<? super K> comparator = null;    // 비교자
+
+    // 생성자
+    public BinTree() {
+        root = null;
+    }
+
+    // 생성자
+    public BinTree(Comparator<? super K> c) {
+        this();
+        comparator = c;
+    }
+
+    // 두 키 값을 비교
+    private int comp(K key1, K key2){
+        return (comparator == null) ? ((Comparable<K>)key1).compareTo(key2) : comparator.compare(key1,key2);
+    }
 }
+
