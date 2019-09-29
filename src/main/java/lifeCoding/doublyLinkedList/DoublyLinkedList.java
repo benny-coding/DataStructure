@@ -1,8 +1,6 @@
-package lifeCoding;
+package lifeCoding.doublyLinkedList;
 
-import lifeCoding.doublyLinkedList.DoublyLinkedList;
-
-public class  LinkedList {
+public class DoublyLinkedList {
     private Node head;
     private Node tail;
     private int size = 0;
@@ -10,10 +8,12 @@ public class  LinkedList {
     private class Node {
         private Object data;
         private Node next;
+        private Node prev;  // 추가
 
         public Node(Object input){
             this.data = input;
             this.next = null;
+            this.prev = null; // 추가
         }
 
         public String toString(){
@@ -22,13 +22,16 @@ public class  LinkedList {
     }
 
     public void addFirst(Object input) {
-        Node newNode = new Node(input); // input 값으로 Node를 인스턴스화 하여 newNode를 초기화
-        newNode.next = head;	// 기존의 head 값은 newNode 객체의 next 변수가 되고
-        head = newNode;		// newNode 객체는 새로운 head가 됩니다
-        size++;			// 새로운 노드가 생겼으니 size를 증가시켜줍니다
+        Node newNode = new Node(input);
+        newNode.next = head;
 
-        if(head.next == null){  // head의 next값이 null이라는 의미는 현재 head가 마지막 노드라는 의미이므로
-            tail = head;	// head의 값이 tail이기도 하다는 뜻이기도 합니다
+        if(head != null)
+            head.prev = newNode;
+        head = newNode;
+        size++;
+
+        if(head.next == null){
+            tail = head;
         }
     }
 
@@ -38,6 +41,8 @@ public class  LinkedList {
             addFirst(input);
         } else {
             tail.next = newNode;
+            if(tail != null)
+                newNode.prev = tail;
             tail = newNode;
             size++;
         }
@@ -126,19 +131,19 @@ public class  LinkedList {
     }
 
     public String toString(){
-         if(head == null){
-             return "[]";
-         }
+        if(head == null){
+            return "[]";
+        }
 
-         Node temp = head;
-         String str = "[";
+        Node temp = head;
+        String str = "[";
 
-         while(temp.next != null){
-             str += temp.data + ",";
-             temp = temp.next;
-         }
-         str += temp.data;
-         return str + "]";
+        while(temp.next != null){
+            str += temp.data + ",";
+            temp = temp.next;
+        }
+        str += temp.data;
+        return str + "]";
     }
 
     public ListIterator listIterator(){

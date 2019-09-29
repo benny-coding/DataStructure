@@ -1,14 +1,14 @@
 package lifeCoding;
 
-import lifeCoding.LinkedList;
+import lifeCoding.doublyLinkedList.DoublyLinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList numbers = new LinkedList();
+        DoublyLinkedList numbers = new DoublyLinkedList();
         numbers.addLast(10);
         numbers.addLast(20);
         numbers.addLast(30);
-        LinkedList.ListIterator i = numbers.listIterator();
+        DoublyLinkedList.ListIterator i = numbers.listIterator();
         i.add(5);
         System.out.println(i.next());
         i.add(15);
