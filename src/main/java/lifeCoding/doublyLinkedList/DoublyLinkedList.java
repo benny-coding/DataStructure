@@ -49,11 +49,18 @@ public class DoublyLinkedList {
     }
 
     Node node(int index){
-        Node x = head;
-        for (int i = 0; i < index ; i++) {
-            x = x.next;
+        Node x;
+        if(index < size/2) {
+            x = head;
+            for (int i = 0; i < index; i++) {
+                x = x.next;
+            }
+        } else {
+            x = tail;
+            for(int i = size-1; i > index; i--){
+                x = x.prev;
+            }
         }
-
         return x;
     }
 
@@ -66,6 +73,10 @@ public class DoublyLinkedList {
             Node newNode = new Node(input);
             temp1.next = newNode;
             newNode.next = temp2;
+            if(temp2 != null){
+                temp2.prev = newNode;
+            }
+            newNode.prev = temp1;
             size++;
             if(newNode.next == null){
                 tail = newNode;
