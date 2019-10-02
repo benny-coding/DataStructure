@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5921ecb-eb34-4dc1-86df-704115e40b17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,28 +27,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/ListQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap04/IntStackTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap10/BinTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -61,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="341">
+              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
               <folding>
                 <element signature="e#606#607#0" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
@@ -87,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="246" column="36" selection-start-line="246" selection-start-column="36" selection-end-line="246" selection-end-column="36" />
+            <state relative-caret-position="288">
+              <caret line="244" column="13" lean-forward="true" selection-start-line="244" selection-start-column="13" selection-end-line="244" selection-end-column="13" />
               <folding>
                 <element signature="e#2613#2614#0" expanded="true" />
                 <element signature="e#2640#2641#0" expanded="true" />
@@ -210,21 +188,21 @@
         <option value="$PROJECT_DIR$/src/main/java/chap04/IntStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap04/IntStackTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap10/BinTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tree/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lifeCoding/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/lifeCoding/DoublyLinkedList/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/lifeCoding/DoublyLinkedList/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
-    <option name="y" value="70" />
-    <option name="width" value="1794" />
-    <option name="height" value="997" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -293,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569939950868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570023341007" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -411,18 +389,18 @@
       <workItem from="1568723558951" duration="1571000" />
       <workItem from="1568816621053" duration="13328000" />
       <workItem from="1569333097502" duration="2047000" />
-      <workItem from="1569453912869" duration="9466000" />
+      <workItem from="1569453912869" duration="11539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101191000" />
+    <option name="totallyTimeSpent" value="103264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="1440" y="23" width="1920" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.21512248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.21512248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -437,7 +415,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.29036143" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24870466" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26286966" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -802,21 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tree/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -838,10 +801,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Documents/★공간소프트_오동진/3_임수현 인수인계(문서+소스)/삼성창원/소스/src/main/java/eFormSign/login/LoginDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Documents/★공간소프트_오동진/3_임수현 인수인계(문서+소스)/삼성창원/소스/src/main/java/eFormSign/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5126" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="246" column="36" selection-start-line="246" selection-start-column="36" selection-end-line="246" selection-end-column="36" />
+        <state relative-caret-position="288">
+          <caret line="244" column="13" lean-forward="true" selection-start-line="244" selection-start-column="13" selection-end-line="244" selection-end-column="13" />
           <folding>
             <element signature="e#2613#2614#0" expanded="true" />
             <element signature="e#2640#2641#0" expanded="true" />
@@ -849,6 +824,21 @@
             <element signature="e#3491#3492#0" expanded="true" />
             <element signature="e#4139#4140#0" expanded="true" />
             <element signature="e#4187#4188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
           </folding>
         </state>
       </provider>

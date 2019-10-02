@@ -37,4 +37,32 @@ public class TreeNode {
     public TreeNode getRightSubTree(){
         return this.right;
     }
+
+    // # 중위 순회 방식 in-order traversal
+    void inOrderTraversal(TreeNode node){
+        if(node != null){
+            inOrderTraversal(node.left);
+            // # visit(node); visit이 의미하는것
+            inOrderTraversal(node.right);
+        }
+    }
+
+    // # 전위 순회 방식
+    void preOrderTraversal(TreeNode node){
+        if(node != null){
+            // # visit(node);
+            preOrderTraversal(node.left);
+            preOrderTraversal(node.right);
+
+        }
+    }
+
+    // # 후위 순회 방식
+    void postOrderTraversal(TreeNode node){
+        if(node != null){
+            postOrderTraversal(node.left);
+            postOrderTraversal(node.right);
+            // # visit(node);
+        }
+    }
 }
