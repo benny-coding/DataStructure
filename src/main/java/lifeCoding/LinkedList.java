@@ -180,8 +180,8 @@ public class  LinkedList {
             if(nextIndex == 0){
                 throw new IllegalStateException();
             }
-            DoublyLinkedList.this.remove(nextIndex-1);
-            nextIndex--;
+            //DoublyLinkedList.this.remove(nextIndex-1);
+            //nextIndex--;
         }
 
     }
