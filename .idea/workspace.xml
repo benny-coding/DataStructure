@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5921ecb-eb34-4dc1-86df-704115e40b17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap10/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap10/BinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lifeCoding/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lifeCoding/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,93 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stack/StacExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stack/ArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stack/ListStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stack/StackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/ArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-              <folding>
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Queue/ListQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap04/IntStackTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap10/BinTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="437">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#895#896#0" expanded="true" />
                 <element signature="e#922#923#0" expanded="true" />
@@ -124,9 +42,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tree/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3480">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#2613#2614#0" expanded="true" />
+                <element signature="e#2640#2641#0" expanded="true" />
+                <element signature="e#3450#3451#0" expanded="true" />
+                <element signature="e#3491#3492#0" expanded="true" />
+                <element signature="e#4139#4140#0" expanded="true" />
+                <element signature="e#4187#4188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="225">
               <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
@@ -154,6 +131,8 @@
     <findStrings>
       <find>1</find>
       <find>arrayStack</find>
+      <find>DoublyLinkedList</find>
+      <find>add</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -165,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/chap01/Median.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap01/SumFor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap01/Digits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap01/Multi99Table.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap01/TriangleLB.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap02/IntArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap02/IntArrayInit.java" />
@@ -203,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/lifeCoding/ArrayListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap03/GenericClassTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/lifeCoding/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lifeCoding/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stack/StacExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stack/ListStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stack/ArrayStack.java" />
@@ -213,13 +187,20 @@
         <option value="$PROJECT_DIR$/src/main/java/chap04/IntStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap04/IntStackTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap10/BinTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lifeCoding/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lifeCoding/DoublyLinkedList/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lifeCoding/DoublyLinkedList/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lifeCoding/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tree/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="825" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -260,22 +241,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chap04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bambooDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bambooDataStructure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chap10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bambooDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bambooDataStructure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lifeCoding" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,7 +249,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Queue" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="doublyLinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bambooDataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bambooDataStructure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bambooDataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bambooDataStructure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569410524568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570114165114" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -315,20 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntStackTester">
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lifeCoding.ArrayListTest" />
-      <module name="bambooDataStructure.bambooDataStructure.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lifeCoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="GenericClassTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap03.GenericClassTester" />
       <module name="bambooDataStructure.bambooDataStructure.main" />
@@ -355,12 +325,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Main" />
+      <module name="bambooDataStructure.bambooDataStructure.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lifeCoding.Main" />
       <module name="bambooDataStructure.bambooDataStructure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lifeCoding.*" />
+          <option name="PATTERN" value="lifeCoding.doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.IntStackTester" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GenericClassTester" />
-        <item itemvalue="Application.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -413,15 +396,15 @@
       <workItem from="1568723558951" duration="1571000" />
       <workItem from="1568816621053" duration="13328000" />
       <workItem from="1569333097502" duration="2047000" />
-      <workItem from="1569453912869" duration="2058000" />
+      <workItem from="1569453912869" duration="13750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93783000" />
+    <option name="totallyTimeSpent" value="105475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.28898427" />
@@ -434,12 +417,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.29036143" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3287858" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28915662" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -710,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="182" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stack/StacExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -788,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="225">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
@@ -802,12 +778,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap10/BinTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="437">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#895#896#0" expanded="true" />
             <element signature="e#922#923#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Documents/★공간소프트_오동진/3_임수현 인수인계(문서+소스)/삼성창원/소스/src/main/java/eFormSign/login/LoginDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Documents/★공간소프트_오동진/3_임수현 인수인계(문서+소스)/삼성창원/소스/src/main/java/eFormSign/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5126" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/doublyLinkedList/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3480">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#2640#2641#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3491#3492#0" expanded="true" />
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4187#4188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lifeCoding/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
